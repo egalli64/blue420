@@ -14,6 +14,7 @@ Java
 SQL
 - Angelica
 - Francesca
+- Magda
 
 Git
 - Chiara
