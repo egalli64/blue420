@@ -3,8 +3,20 @@ use blue;
 drop table if exists film_location;
 drop table if exists locations;
 drop table if exists films;
+drop table if exists users;
 
 
+create table users (
+
+user_id integer primary key auto_increment, 
+		first_name varchar(30), 
+		last_name varchar(30), password varchar(20)); 
+        
+insert into users (first_name, last_name, password) 
+	values ("Magda", "Boscarino", "magda1"), 
+			("Angelica", "Iantorno", "angelica1");
+            
+            commit;
 
 create table films (
 film_id integer primary key,
