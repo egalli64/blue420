@@ -9,12 +9,12 @@ drop table if exists users;
 create table users (
 
 user_id integer primary key auto_increment, 
-		first_name varchar(30), 
-		last_name varchar(30), password varchar(20)); 
+		username varchar(30), 
+		password varchar(20)); 
         
-insert into users (first_name, last_name, password) 
-	values ("Magda", "Boscarino", "magda1"), 
-			("Angelica", "Iantorno", "angelica1");
+insert into users (username, password) 
+	values ("Magda", "magda1"), 
+			("Angelica", "angelica1");
             
             commit;
 
