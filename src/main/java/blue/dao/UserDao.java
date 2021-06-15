@@ -15,7 +15,7 @@ import org.slf4j.LoggerFactory;
 
 public class UserDao implements AutoCloseable {
 	private static final Logger log = LoggerFactory.getLogger(UserDao.class);
-	private static final String GET_ALL = "SELECT user_id, first_name, last_name, password FROM users";
+	private static final String GET_ALL = "SELECT user_id, username, password FROM users";
 	private Connection conn;
 
 	public UserDao(DataSource ds) {
@@ -35,7 +35,7 @@ public class UserDao implements AutoCloseable {
 		try (Statement stmt = conn.createStatement(); //
 				ResultSet rs = stmt.executeQuery(GET_ALL)) {
 			while (rs.next()) {
-				User cur = new User(rs.getInt(1), rs.getString(2), rs.getString(3), rs.getString(4));
+				User cur = new User(rs.getInt(1), rs.getString(2), rs.getString(3));
 				results.add(cur);
 			}
 		} catch (SQLException se) {

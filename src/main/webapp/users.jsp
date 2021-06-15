@@ -14,14 +14,12 @@
 	<h1>Users</h1>
 	<table>
 		<tr>
-			<th>first_name</th>
-			<th>last_name</th>
+			<th>username</th>
 			<th>password</th>
 		</tr>
 		<c:forEach var="user" items="${users}">
 			<tr>
-				<td>${user.first_name}</td>
-				<td>${user.last_name}</td>
+				<td>${user.username}</td>
 				<td>${user.password}</td>
 			</tr>
 		</c:forEach>

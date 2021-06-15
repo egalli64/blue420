@@ -2,21 +2,19 @@ package blue.dao;
 
 public class User {
 	private Integer id;
-	private String first_name;
-	private String last_name;
+	private String username;
 	private String password;
 
 	public User() {
 	}
 
-	public User(String first_name, String last_name, String password) {
-		this(null, first_name, last_name, password);
+	public User(String username, String password) {
+		this(null, username, password);
 	}
 
-	public User(Integer id, String first_name, String last_name, String password) {
+	public User(Integer id, String username, String password) {
 		this.id = id;
-		this.first_name = first_name;
-		this.last_name = last_name;
+		this.username = username;
 		this.password = password;
 	}
 
@@ -28,20 +26,12 @@ public class User {
 		this.id = id;
 	}
 
-	public String getFirst_name() {
-		return first_name;
+	public String getUsername() {
+		return username;
 	}
 
-	public void setFirst_name(String first_name) {
-		this.first_name = first_name;
-	}
-
-	public String getLast_name() {
-		return last_name;
-	}
-
-	public void setLast_name(String last_name) {
-		this.last_name = last_name;
+	public void setUsername(String username) {
+		this.username = username;
 	}
 
 	public String getPassword() {
@@ -54,7 +44,6 @@ public class User {
 
 	@Override
 	public String toString() {
-		return "User [id=" + id + ", first_name=" + first_name + ", last_name=" + last_name + ", password=" + password
-				+ "]";
+		return "User [id=" + id + ", username=" + username + ", password=" + password + "]";
 	}
 }
