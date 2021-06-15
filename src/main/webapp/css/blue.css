@@ -1,5 +1,116 @@
 @charset "UTF-8";
-
+* {
+    margin: 0px;
+    padding: 0px;
+    }
 body {
-    background-color: #3d8dc2;
+    background-image:url("sfondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family:cursive;
+    font-size: 1em;
+    text-align:inherit;
+     
+      }
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    font: rgb(255, 255, 255);
+      
 }
+
+a{
+    background-color:hsla(360, 100%, 100%, 0.5);
+    color: black;
+    padding:18px 25px;
+    text-align: center;
+    font-family:cursive;
+   font-size: 18px;
+    display: inline-block;
+    text-decoration: none;
+  position:relative;
+  left: 400px;
+  margin: 0;
+  border: 1px solid black;
+    border-radius: 5px;
+  }
+  b {
+    background-color:hsla(360, 100%, 100%, 0.5);
+    color:black;
+    padding:18px 25px;
+    text-align: center;
+    font-family:cursive;
+   font-size: 18px;
+    display: inline-block;
+    text-decoration: none;
+  position:relative;
+  left: 400px;
+  margin: 0;
+  border: 1px solid black;
+    border-radius: 5px;
+
+  }
+  c {
+    background-color:hsla(360, 100%, 100%, 0.5);
+    color: black;
+    padding:18px 25px;
+    text-align: center;
+    font-family:cursive;
+   font-size: 18px;
+    display: inline-block;
+    text-decoration: none;
+  position:relative;
+  left: 400px;
+  margin: 0;
+  border: 1px solid black;
+    border-radius: 5px;
+  }
+  
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .topnav {  
+    width: 500px;
+  height: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -200px 0px 0px -250px;
+    }
+  form {
+      float:right;
+  }
+  footer {
+      bottom:50%;
+      height:50px;width: 100%;background: #abaeaf url("bgfooter.jpg") repeat-x;
+      margin: 600px auto 0;
+    }
+    .uno {
+        border:3px solid #32e17c;
+        height: 40px;
+        width: 600px;
+        border-radius: 50px;
+        padding: 0px 10px;
+        
+    }
+    .due {
+        border:1,5px solid #32e17c;
+        height: 40px;
+        width: 150px;
+        border-radius: 50px;
+        padding: 0px 10px;
+       
+    }
+    section{
+        display: block;
+        padding: 8px;
+        margin: 540px auto 0;
+        position:left;
+        left:5px;
+            }
+    

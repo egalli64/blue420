@@ -4,18 +4,46 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Blue Home</title>
-<link rel="icon" href="data:;base64,=">
+<meta name="keywords" content ="Travel, Film, Città">
+<title>Scene Place</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="/blue/css/blue.css">
 </head>
 <body>
-	<h2>Login User</h2>
+
 	<form method="POST" action="login">
+		<h4>Login User</h4>
 		First name: <input type="text" size="40" maxlength="40"
 			name="firstname" /> <br /> Last name:<input type="text" size="40"
 			maxlength="40" name="lastname" /> <br /> Password: <input
 			type="password" name="password" /> <br /> <input type="submit"
 			value="create" />
 	</form>
+	<div><h1> Scene Place</h1> </div>
+	<div class="topnav">
+
+		<input class="uno" type="text" name="box" placeholder="Search film or location">
+		<input class="due" type="submit" value="go!"></input>
+	
+		
+	  </div>
+	  	<nav>
+		<a href="index.jsp">Home</a>
+		<b href="Contatti.html">Contact</b>
+		<c href= "Storia.html">About</c>
+		</nav>
+<header>
+	<h1>Follow us</h1>
+	</header>
+<section>
+	<a href="https://www.facebook.com/ " class="fa fa-facebook"></a>
+<a href="https://twitter.com/login?lang=it" class="fa fa-twitter"></a>
+<a href=" https://www.instagram.com/" class="fa fa-instagram"></a>
+<a href="https://www.youtube.com/" class="fa fa-youtube"></a>
+
+</section>
+<br> <footer>
+	<small>©2021 Design by Nabila El Fakir, Sarah Ricci, Chiara Palmentieri, Magda Boscarino, Sarah Clementini, Giulia Cicatiello, Francesca Contestabile, Angelica Iantorno </small>
+  </footer>
 </body>
 </html>
