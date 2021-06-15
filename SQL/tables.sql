@@ -34,7 +34,6 @@ drop table if exists location_film;
 create table location_film (
 		location_id integer,
         film_id integer );
-      --  constraint cities_films_city_fk foreign key (cities_films_id) references cities_films(cities_films_id));
 insert into location_film (location_id, film_id) values (1, 100);
 insert into location_film (location_id, film_id) values (2, 101);
 insert into location_film (location_id, film_id) values (3, 102);
