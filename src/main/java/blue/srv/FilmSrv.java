@@ -26,10 +26,12 @@ public class FilmSrv extends HttpServlet {
 	@Override
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
+		String title = request.getParameter("title");
 		log.trace("called");
 		try (FilmDao dao = new FilmDao(ds)) {
-			request.setAttribute("films", dao.getAll());
+			request.setAttribute("films", dao.getLike(title));
 			request.getRequestDispatcher("films.jsp").forward(request, response);
 		}
 	}
+
 }

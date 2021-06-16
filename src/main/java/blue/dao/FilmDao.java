@@ -2,6 +2,7 @@ package blue.dao;
 
 import java.io.IOException;
 import java.sql.Connection;
+import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
@@ -16,6 +17,7 @@ import org.slf4j.LoggerFactory;
 public class FilmDao implements AutoCloseable {
 	private static final Logger log = LoggerFactory.getLogger(FilmDao.class);
 	private static final String GET_ALL = "SELECT film_id, title, director FROM films";
+	private static final String GET_LIKE = "SELECT film_id, title, director FROM films where title like '%?%'";
 	private Connection conn;
 
 	public FilmDao(DataSource ds) {
@@ -32,8 +34,26 @@ public class FilmDao implements AutoCloseable {
 		log.trace("called");
 		List<Film> results = new ArrayList<>();
 
-		try (Statement stmt = conn.createStatement(); //
-				ResultSet rs = stmt.executeQuery(GET_ALL)) {
+		try (Statement stmt = conn.createStatement(); ResultSet rs = stmt.executeQuery(GET_ALL)) {
+			while (rs.next()) {
+				Film cur = new Film(rs.getInt(1), rs.getString(2), rs.getString(3));
+				results.add(cur);
+			}
+		} catch (SQLException se) {
+			log.error("Can't get films: " + se.getMessage());
+			throw new IllegalStateException("Database issue " + se.getMessage());
+		}
+		return results;
+	}
+
+	public List<Film> getLike(String title) {
+		log.trace("called");
+		List<Film> results = new ArrayList<>();
+
+		try (PreparedStatement stmt = conn.prepareStatement(title)) {
+			stmt.setString(1, title);
+
+			ResultSet rs = stmt.executeQuery(GET_LIKE);
 			while (rs.next()) {
 				Film cur = new Film(rs.getInt(1), rs.getString(2), rs.getString(3));
 				results.add(cur);
@@ -54,4 +74,5 @@ public class FilmDao implements AutoCloseable {
 			throw new IllegalStateException("Database issue " + se.getMessage());
 		}
 	}
+
 }
