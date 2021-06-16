@@ -8,16 +8,18 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    font-family:cursive;
-    font-size: 1em;
-    text-align:inherit;
-     
+    font-family:large;
       }
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: large;
+    font-size:1 cm;
     font: rgb(255, 255, 255);
-      
+    text-shadow: -1px 0 rgb(255, 255, 255), 0 1px rgb(255, 255, 255), 1px 0 rgb(255, 255, 255), 0 -1px rgb(255, 255, 255);  
+}
+#ts {
+    text-align: center;
+    font-size: 2cm;
+    text-shadow: -1px 0 rgb(255, 255, 255), 0 1px rgb(255, 255, 255), 1px 0 rgb(255, 255, 255), 0 -1px rgb(255, 255, 255);
 }
 
 a{
@@ -87,8 +89,8 @@ a{
   }
   footer {
       bottom:50%;
-      height:50px;width: 100%;background: #abaeaf url("bgfooter.jpg") repeat-x;
-      margin: 600px auto 0;
+      height:50px;width: 100%;background: #abaeaf;
+      margin: 400px auto 0;
     }
     .uno {
         border:3px solid #32e17c;

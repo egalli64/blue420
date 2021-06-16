@@ -12,16 +12,15 @@
 <body>
 
 	<form method="POST" action="login">
-		<h4>Login User</h4>
-		First name: <input type="text" size="40" maxlength="40"
-			name="firstname" /> <br /> Last name:<input type="text" size="40"
-			maxlength="40" name="lastname" /> <br /> Password: <input
+		<h4>User</h4>
+		username: <input type="text" size="40" maxlength="40"
+			name="username" /> <br /> password: <input
 			type="password" name="password" /> <br /> <input type="submit"
-			value="create" />
+			value="login" />
 	</form>
-	<div><h1> Scene Place</h1> </div>
+	
 	<div class="topnav">
-
+    <h2 id="ts">Scene Place</h2>
 		<input class="uno" type="text" name="box" placeholder="Search film or location">
 		<input class="due" type="submit" value="go!"></input>
 	
@@ -32,10 +31,9 @@
 		<b href="Contatti.html">Contact</b>
 		<c href= "Storia.html">About</c>
 		</nav>
-<header>
-	<h1>Follow us</h1>
-	</header>
+
 <section>
+	<h1>Follow us:</h1>
 	<a href="https://www.facebook.com/ " class="fa fa-facebook"></a>
 <a href="https://twitter.com/login?lang=it" class="fa fa-twitter"></a>
 <a href=" https://www.instagram.com/" class="fa fa-instagram"></a>
