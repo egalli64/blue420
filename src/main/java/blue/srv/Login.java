@@ -30,7 +30,7 @@ public class Login extends HttpServlet {
     			request.setAttribute("users", dao.getUser(username, password));
     	}
     	}
-       request.setAttribute("logged", new User("?","?"));
+       request.setAttribute("logged", new User(username,password));
        request.getRequestDispatcher("index.jsp").forward(request, response);
 		
         
