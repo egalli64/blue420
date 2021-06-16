@@ -44,14 +44,7 @@ b:hover {
   float:right;
   color: #f2f2f2;
 }
-/*h2{
-  width: 500px;
-  height: 400px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin: -200px 0px 0px -250px;
-}*/
+
 
 #sch {
   position: absolute;
@@ -94,12 +87,19 @@ b:hover {
   border-radius: 50px;
   outline:none;
   text-transform: uppercase;
-  font-weight:bold;
-  /*top: 50%;
-  left: 50%;*/
-  
-  
+  font-weight:bold;  
 }
+#hello {
+ margin-left:373px;
+ margin-right: 373px;
+ margin-top: 20%;
+ color: rgb(36, 34, 34);
+    text-align: center;
+    font-size: 2cm;
+    text-shadow: -1px 0 rgb(255, 255, 255), 0 1px rgb(255, 255, 255), 1px 0 rgb(255, 255, 255), 0 -1px rgb(255, 255, 255);
+}
+
+
 
 .fa {
     padding: 20px;

@@ -24,11 +24,11 @@
 					</form>
 				</c:if>
 				<c:if test="${logged != null}">
-					<p>Hello ${logged.username}!</p>
+					
 				</c:if>
 			</nav>
 			<h2 id="ts">Scene Place</h2>
-			
+			<p id="hello">Welcome ${logged.username}</p>
 			<div class="topnav">
 <form id="sch" action="films">
 
