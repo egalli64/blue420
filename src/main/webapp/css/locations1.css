@@ -1,0 +1,38 @@
+@charset "UTF-8";
+header {
+    text-align: center;
+}
+ .autoFlex {
+    flex: auto;
+}
+body {
+    background-image:url("sfondo3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family:large;
+      }
+article {
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid whitesmoke;
+}
+
+pre {
+    color:black(0, 0, 0) ;
+    font-size: 20px;
+    font-style: oblique;
+    font-weight: bold;
+    background-color:rgb(120, 198, 218) ;
+    padding:18px 20px;
+    text-align:center;
+    font-family:cursive;
+
+  }
+
+#container1 {
+    display: flex;
+    height: 300px;
+    border: 2px solid white;
+}
