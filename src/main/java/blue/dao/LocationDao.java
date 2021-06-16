@@ -3,6 +3,7 @@ package blue.dao;
 
 import java.io.IOException;
 import java.sql.Connection;
+import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
@@ -46,6 +47,8 @@ public class LocationDao implements AutoCloseable {
 
         return results;
     }
+    
+  
 
     @Override
     public void close() throws IOException {

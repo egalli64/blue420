@@ -11,11 +11,11 @@
 <link rel="stylesheet" type="text/css" href="/blue/css/blue.css">
 </head>
 <body>
-	<h1>Films</h1>
+	<h1>Location</h1>
 	<table>
 		<tr>
-			<th>title</th>
-			<th>director</th>
+			<th>city</th>
+			<th>name</th>
 		</tr>
 		<c:forEach var="film" items="${films}">
 			<tr>

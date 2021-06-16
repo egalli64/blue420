@@ -30,6 +30,8 @@ public class UserSrv extends HttpServlet {
 		try (UserDao dao = new UserDao(ds)) {
 			request.setAttribute("users", dao.getAll());
 			request.getRequestDispatcher("users.jsp").forward(request, response);
+			
+			
 		}
 	}
 }

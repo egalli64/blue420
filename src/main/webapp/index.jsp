@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
+	<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,7 +11,7 @@
 <link rel="stylesheet" type="text/css" href="/blue/css/blue.css">
 </head>
 <body>
-
+<c:if test="${logged == null}"> 
 	<form method="POST" action="login">
 		<h4>User</h4>
 		username: <input type="text" size="40" maxlength="40"
@@ -18,11 +19,19 @@
 			type="password" name="password" /> <br /> <input type="submit"
 			value="login" />
 	</form>
-	
+	</c:if>
+	<c:if test="${logged != null}"> 
+	<p>Hello ${logged.username}!</p>
+	</c:if>
 	<div class="topnav">
     <h2 id="ts">Scene Place</h2>
-		<input class="uno" type="text" name="box" placeholder="Search film or location">
-		<input class="due" type="submit" value="go!"></input>
+    <form action= "films">
+    
+    <input class="uno" type="text" name="title" placeholder="Search film or location">
+		<input class="due" type="submit" value="go!">
+		
+    </form>
+		
 	
 		
 	  </div>

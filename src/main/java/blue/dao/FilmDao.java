@@ -17,7 +17,8 @@ import org.slf4j.LoggerFactory;
 public class FilmDao implements AutoCloseable {
 	private static final Logger log = LoggerFactory.getLogger(FilmDao.class);
 	private static final String GET_ALL = "SELECT film_id, title, director FROM films";
-	private static final String GET_LIKE = "SELECT film_id, title, director FROM films where title like '%?%'";
+	private static final String GET_LIKE = "SELECT film_id, title, director FROM films where title like ?";
+	private static final String GET_LOCATION_LIKE = "SELECT location_id, city, name FROM locations JOIN film_location USING (location_id) JOIN films using (film_id) where title like ?";
 	private Connection conn;
 
 	public FilmDao(DataSource ds) {
@@ -50,10 +51,10 @@ public class FilmDao implements AutoCloseable {
 		log.trace("called");
 		List<Film> results = new ArrayList<>();
 
-		try (PreparedStatement stmt = conn.prepareStatement(title)) {
-			stmt.setString(1, title);
+		try (PreparedStatement stmt = conn.prepareStatement(GET_LIKE)) {
+			stmt.setString(1, "%" + title + "%");
 
-			ResultSet rs = stmt.executeQuery(GET_LIKE);
+			ResultSet rs = stmt.executeQuery();
 			while (rs.next()) {
 				Film cur = new Film(rs.getInt(1), rs.getString(2), rs.getString(3));
 				results.add(cur);
@@ -65,7 +66,25 @@ public class FilmDao implements AutoCloseable {
 
 		return results;
 	}
+	public List<Film> getLocationLike(String title) {
+		log.trace("called");
+		List<Film> results = new ArrayList<>();
 
+		try (PreparedStatement stmt = conn.prepareStatement(GET_LOCATION_LIKE)) {
+			stmt.setString(1, "%" + title + "%");
+
+			ResultSet rs = stmt.executeQuery();
+			while (rs.next()) {
+				Film cur = new Film(rs.getInt(1), rs.getString(2), rs.getString(3));
+				results.add(cur);
+			}
+		} catch (SQLException se) {
+			log.error("Can't get films: " + se.getMessage());
+			throw new IllegalStateException("Database issue " + se.getMessage());
+		}
+
+		return results;
+	}
 	@Override
 	public void close() throws IOException {
 		try {

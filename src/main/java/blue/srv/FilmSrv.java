@@ -29,7 +29,7 @@ public class FilmSrv extends HttpServlet {
 		String title = request.getParameter("title");
 		log.trace("called");
 		try (FilmDao dao = new FilmDao(ds)) {
-			request.setAttribute("films", dao.getLike(title));
+			request.setAttribute("films", dao.getLocationLike(title));
 			request.getRequestDispatcher("films.jsp").forward(request, response);
 		}
 	}
