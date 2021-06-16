@@ -15,8 +15,8 @@
 		<body>
 			<nav class="menu">
 				<b href="index.jsp">Home</b>
-				<b href="Contatti.html">Contact</b>
-				<b href="Storia.html">About</b>
+				<b href="Contatti.jsp">Contact</b>
+				<b href="Storia.jsp">About</b>
 				<c:if test="${logged == null}">
 					<form class="user" method="POST" action="login">
 						username: <input type="text" size="40" maxlength="40" name="username" /> <br /> password: <input
