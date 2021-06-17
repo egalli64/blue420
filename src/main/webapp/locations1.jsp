@@ -35,7 +35,7 @@
      
     <section>
         <article class="autoFlex">
-            <h3>Itinerario</h3>
+            <h3>Napoli, Quartieri spagnoli</h3>
 <pre> <i>
     Un itinerario per  poeti,  sognatori e per tutti quelli che in qualche angolo 
     del loro cuore hanno uno spazio libero e creativo, facile ad appassionarsi. Insieme 
@@ -137,24 +137,9 @@ In questo antico stabile sono stati girati tra gli altri “Questi fantasmi” (
      (N. Loy, 1993), al film TV “Giuseppe Moscati – L’amore che guarisce” (G. Campiotti, 2007). </i>
 </pre>
 <figure><img src = "img1.jpg" alt="pattern" title="napoli"  width="520" height="550" ></figure> 
-            <p>Napoli</p>
-        </article>
-
-        <article class="autoFlex">
-            <h3>Location</h3>
-
-            <p>Quartieri spagnoli </p>
-        </article>
-
-       
+           
     </section>
 
-
-    <section>
-        <div class="box">1</div>
-        <div class="box">2</div>
-        <div class="box">3</div>
-    </section>
 </body>
 
 </html>
