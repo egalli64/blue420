@@ -1,0 +1,42 @@
+
+@charset "UTF-8";
+*{
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+}
+ body{
+     font-family:"Roboto", sans-serif;
+     background-color: turquoise;
+     color: black;
+     line-height: 1.5;
+ }
+
+ a{
+     text-decoration: none;
+     color: black;
+ }
+ 
+
+ h1,h2{
+     font: weight 300px;
+ }
+ ul{
+     list-style:none;
+ }
+ p{
+     margin:10px 0;
+ }
+ img{
+     width: 100%;
+ }
+ /* navbar */
+ .navbar .logo{
+     front-weight:400;
+ }
+ .navbar{
+     background-color: black;
+     padding: 0 40px;
+     display:flex;
+     justify-content: space-between;
+ }

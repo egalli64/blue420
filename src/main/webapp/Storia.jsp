@@ -58,11 +58,54 @@
                             <div>
                                 <img src="css/accenture2.jpg" alt="accenture">
                                 <h4>Accenture</h4>
+                                <p>Social media marketing</p>
+                            </div>
+                            <div>
+                                <img src="css/accenture3.jpg" alt="accenture">
+                                <h4>Accenture</h4>
+                                <p>Front-End Developer</p>
+                            </div>
+                            <div>
+                                <img src="css/accenture4.jpg" alt="accenture">
+                                <h4>Accenture</h4>
+                                <p>Analyst</p>
                             </div>
                         </div>
                     </header>
                     
                 </section>
+                <section id="images" class="images flex-grid section-padding">
+                <header class="section-header">
+                    <h3>
+                        Our project
+                    </h3>
+                    <div class="img">
+                    <img src="css/progetto1.jpg" alt="project">
+                    <img src="css/progetto2.jpg" alt="project">
+                    <img src="css/progetto3.jpg" alt="project">
+                    <img src="css/progetto4.jpg" alt="project">
+                    <img src="css/progetto5.jpg" alt="project">
+                </div>
+                </header>
+            </section>
+              <section id="blog" class="blog flex-columns flex-reverse">
+                <div class="column">
+                    <div class="column-1">
+                        <img src="css/progetto6.jpg" alt="immaginifici">
+                    </div>
+                    <div class="column-2 bg-primary" >
+                        <h4>Accenture</h4>
+                        <h2>Future</h2>
+                        <p> “Across the globe, one thing is universally true 
+                            of the people of Accenture: We care deeply about 
+                            what we do and the impact 
+                            we have with our clients and communities. It is personal 
+                            to all of us.”</p>
+                            <a href="index.jsp" class="btn btn-outline"></a>
+                            </div>
+
+                    </div>
+              </section>
                 </main>
 
 
