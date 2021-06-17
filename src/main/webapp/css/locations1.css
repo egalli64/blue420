@@ -6,9 +6,9 @@ header {
   color:rgb(8, 114, 5);
 
 }
- .autoFlex {
+/* .autoFlex {
     flex: auto;
-}
+} */
 body {
     background-image:url("sfondoacquarello.jpg");
     background-repeat: no-repeat;
@@ -40,10 +40,11 @@ body {
       }
 
 article {
-    width: 300px;
-    padding: 10px;
-    margin: 10px;
-    border: 1px solid whitesmoke;
+  width: 1800px;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid whitesmoke;
+  background: rgb(104, 202, 104);
 }
 h1 {   
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -68,20 +69,25 @@ pre {
     text-align:center;
       }
 .one{
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        font-style: normal;
-        font-weight: normal;
-        background-color: green;
-        text-align: center;
-        color: rgb(0, 0, 0);
+      width: 1800px;
+      padding: 10px;
+      margin: 10px;
+      border: 1px solid whitesmoke;
+      background: rgb(104, 202, 104);  
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-style: normal;
+      font-size: 20px;
+      font-weight: normal;
+      text-align: center;
+      color: rgb(0, 0, 0);
         }
 .two{
           font-family: Georgia, 'Times New Roman', Times, serif;
-          text-align:left;
+          text-align:center;
           font-style: normal;
           font-weight: normal;
           color: rgb(0, 0, 0);
-    }
+              }
 
 #container1 {
     display: flex;
@@ -89,8 +95,9 @@ pre {
     border: black;
 }
 video {
-    position: relative;
-    left: 450px;
+    position: absolute;
+    left: 347px;
+    right: 347px;
   }
 
   img {
