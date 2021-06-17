@@ -11,12 +11,19 @@
 
 </head>
 <body>
+
+    <nav class="menu">
+        <b href="index.jsp">Home</b>
+        <b href="Contatti.jsp">Contact</b>
+        <b href="Storia.jsp">About</b>
+</nav>
     <header>
-        <h1 id= "bordered1">La dolce vita </h1>
+        <h1 id= "bordered1">La dolce vita 
+        </br>
+        Roma
+        </h1>
     </header>
-    <nav>
-        Back <a href="index.jsp">home</a>
-    </nav>
+
     <pre>
         <i > 
             La dolce è un film commedia drammatico del 1960, diretto e co-scritto da Federico Fellini.
