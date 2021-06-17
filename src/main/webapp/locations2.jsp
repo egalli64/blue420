@@ -27,10 +27,8 @@
         <b href="Storia.jsp">About</b>
 </nav>
     <header>
-        <h1 id= "bordered1">La dolce vita 
-        </br>
-        Roma
-        </h1>
+        <h1 id= "bordered1">La dolce vita </h1>
+        <h3>Roma, Fontana di Trevi</h3>
     </header>
 
     <pre class="one">
@@ -49,8 +47,8 @@
      
     <section>
         
-            <h3>Roma, Fontana di Trevi</h3>
-            <article class="autoFlex"></article>
+           
+           
             <article class="autoFlex">
            
                 <pre class="two"> <i>

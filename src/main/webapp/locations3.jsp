@@ -19,10 +19,8 @@
     </nav>
 
     <header>
-        <h1 id= "bordered1"> Quo vado
-        </br>
-        Fogliano
-        </h1>
+        <h1 id= "bordered1"> Quo vado </h1>
+        <h3>Fogliano, Parco Nazionale del Circeo</h3>
     </header>
 
     <pre class="one" >
@@ -39,9 +37,12 @@
       </video>
      
     <section>
-            <h3>Fogliano, Parco Nazionale del Circeo</h3>
-            <article class="autoFlex"></article>
-            <pre class="two">  <i> 
+       
+            <article class="autoFlex">
+               
+    <pre class="two"> <i>
+            
+           
    
     Il comico Checco Zalone si innamora del paesaggio pontino e lo sceglie per alcune riprese del suo nuovo film.
     Per la pellicola “Quo vado” il regista barese punta alla natura incontaminata del Parco nazionale del Circeo
