@@ -23,12 +23,12 @@
 							type="password" name="password" /> <br /> <input type="submit" value="login" />
 					</form>
 				</c:if>
-				<!--<c:if test="${logged != null}">
-					<p id="hello">Welcome ${logged.username}</p>
-				</c:if>-->
+				<c:if test="${logged != null}">
+					<f href="logout"> Logout</f>
+				</c:if>
 			</nav>
 			<h2 id="ts">Scene Place</h2>
-			<!--<p id="hello">Welcome ${logged.username}</p>-->
+			
 			<c:if test="${logged != null}">
 					<p id="hello">Welcome ${logged.username}</p>
 				</c:if>

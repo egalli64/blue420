@@ -40,6 +40,19 @@ b:hover {
   background-color: #ddd;
   color: black;
 }
+.menu f {
+  float:right;
+
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+f:hover {
+  background-color: #ddd;
+  color: black;
+}
 .user{
   float:right;
   color: #f2f2f2;
