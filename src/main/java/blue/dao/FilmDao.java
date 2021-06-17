@@ -66,24 +66,23 @@ public class FilmDao implements AutoCloseable {
 
 		return results;
 	}
-	public List<Film> getLocationLike(String title) {
+	public Location getLocationLike(String title) {
 		log.trace("called");
-		List<Film> results = new ArrayList<>();
 
 		try (PreparedStatement stmt = conn.prepareStatement(GET_LOCATION_LIKE)) {
 			stmt.setString(1, "%" + title + "%");
 
 			ResultSet rs = stmt.executeQuery();
-			while (rs.next()) {
-				Film cur = new Film(rs.getInt(1), rs.getString(2), rs.getString(3));
-				results.add(cur);
+			if (rs.next()) {
+				Location cur = new Location(rs.getInt(1), rs.getString(2), rs.getString(3));
+				return cur;
 			}
 		} catch (SQLException se) {
-			log.error("Can't get films: " + se.getMessage());
+			log.error("Can't get location: " + se.getMessage());
 			throw new IllegalStateException("Database issue " + se.getMessage());
 		}
 
-		return results;
+		return null;
 	}
 	@Override
 	public void close() throws IOException {

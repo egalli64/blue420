@@ -14,6 +14,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import blue.dao.FilmDao;
+import blue.dao.Location;
 
 @SuppressWarnings("serial")
 @WebServlet("/films")
@@ -29,8 +30,34 @@ public class FilmSrv extends HttpServlet {
 		String title = request.getParameter("title");
 		log.trace("called");
 		try (FilmDao dao = new FilmDao(ds)) {
+			
+			Location locations = dao.getLocationLike(title);
+			String cur =locations.getName();
+			String uri;
+			
+			switch (cur) {
+			case "Quartieri spagnoli":
+				uri = "locations1.jsp";
+				break;
+			case "Fontana di Trevi":
+				uri = ".jsp";
+				break;
+			case "Parco Nazionale del Circeo":
+				uri = ".jsp";
+				break;
+			case "Duomo di Milano":
+				uri = ".jsp";
+				break;
+			case "Bahnhof zoo":
+				uri = ".jsp";
+				break;
+				
+				default:
+					uri = "notFound.jsp";
+					break;
+			}
 			request.setAttribute("films", dao.getLocationLike(title));
-			request.getRequestDispatcher("films.jsp").forward(request, response);
+			request.getRequestDispatcher(uri).forward(request, response);
 		}
 	}
 
