@@ -7,7 +7,7 @@
 }
  body{
      font-family:sans-serif;
-     background-color: rgb(169, 209, 247);
+     background-color:rgb(196, 245, 148);
      color: black;
      line-height: 1.5;
  }
@@ -50,7 +50,7 @@
     transition: 1s;
  }
  .navbar.top{
-     background: transparent;
+     background-color: #333;
  } 
 .navbar ul{
     display: flex;
@@ -60,11 +60,11 @@
     margin-right: 10px;
 }
 .navbar ul li a:hover{
-    border-bottom:2px solid rgb(215,8,8);
+    border-bottom:2px solid #333;
 }
 .box{
     height: 100vh;
-     background: url("css/sfondo20.jpg") no-repeat center center/cover;
+     background: url("greentile.jpg") no-repeat center center/cover;
      position: relative;
      color:black;
 }
