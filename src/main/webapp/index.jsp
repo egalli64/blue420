@@ -24,7 +24,7 @@
 					</form>
 				</c:if>
 				<c:if test="${logged != null}">
-					<f href="logout"> Logout</f>
+					<a id="lg" href="logout"> Logout</a>
 				</c:if>
 			</nav>
 			<h2 id="ts">Scene Place</h2>
