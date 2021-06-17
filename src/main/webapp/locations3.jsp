@@ -51,7 +51,7 @@
      costretta a girare l’Italia per poi finire in Norveglia, tutto per non perdere il posto di lavoro. 
     </i>
 </pre>
-<figure><img src = "css/imagesquovado.jpg" alt="pattern" title="roma"  width="420" height="450" ></figure> 
+<figure><img src = "css/quovadoimg.jpg" alt="pattern" title="roma"  width="420" height="450" ></figure> 
 
     </section>
 
