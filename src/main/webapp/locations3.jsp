@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
+	<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,6 +12,15 @@
 
 </head>
 <body>
+
+ <table>
+		<c:forEach var="locations3" items="${locations}">
+			<tr>
+				<td>${film.title}</td>
+				<td>${film.director}</td>
+			</tr>
+		</c:forEach>
+	 </table>
 
     <nav class="menu">
         <b href="index.jsp">Home</b>
