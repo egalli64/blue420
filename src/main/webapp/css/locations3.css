@@ -14,10 +14,17 @@ body {
       }
       
       #bordered1{
-        border: black ridge;
+        border: rgb(58, 55, 55) ridge;
         border-width: 2px;
       }
- 
+      .two{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align:center;
+        font-style: normal;
+        font-weight: normal;
+        color: rgb(0, 0, 0);
+            }
+
 
       .menu {
         background-color: #333;;
