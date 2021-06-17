@@ -6,8 +6,8 @@
      padding: 0;
 }
  body{
-     font-family:"Roboto", sans-serif;
-     background-color: turquoise;
+     font-family:sans-serif;
+     background-color: rgb(169, 209, 247);
      color: black;
      line-height: 1.5;
  }
@@ -41,7 +41,7 @@
      justify-content: space-between;
      text-align: center;
      align-items: center;
-     color:whitesmoke;
+     color:rgb(78, 76, 214);
      opacity: 0,8;
      height: 70px;
      width: 100%;
@@ -49,9 +49,9 @@
      top: 0;
     transition: 1s;
  }
- /*.navbar.top{
+ .navbar.top{
      background: transparent;
- } */
+ } 
 .navbar ul{
     display: flex;
 }
@@ -64,7 +64,7 @@
 }
 .box{
     height: 100vh;
-     background-color: seashell;
+     background: url("css/sfondo20.jpg") no-repeat center center/cover;
      position: relative;
      color:black;
 }
