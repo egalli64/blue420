@@ -40,10 +40,10 @@ public class FilmSrv extends HttpServlet {
 				uri = "locations1.jsp";
 				break;
 			case "Fontana di Trevi":
-				uri = ".jsp";
+				uri = "locations2.jsp";
 				break;
 			case "Parco Nazionale del Circeo":
-				uri = ".jsp";
+				uri = "locations3.jsp";
 				break;
 			case "Duomo di Milano":
 				uri = ".jsp";

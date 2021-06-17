@@ -8,6 +8,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 import javax.sql.DataSource;
 
 import blue.dao.User;
@@ -24,13 +25,16 @@ public class Login extends HttpServlet {
             throws ServletException, IOException {
     	String username = request.getParameter("username");
     	String password = request.getParameter("password");
-    	if (username == null || password == null) {
-    	} else {
+    	
+    	HttpSession session = request.getSession();
+    	User user = (User) session.getAttribute("logged");
+
+    	if (user == null && username != null && password != null) {
     		try (UserDao dao = new UserDao(ds)) {
-    			request.setAttribute("users", dao.getUser(username, password));
+    			User logged = dao.getUser(username, password);
+    			session.setAttribute("logged", logged);
     	}
     	}
-       request.setAttribute("logged", new User(username,password));
        request.getRequestDispatcher("index.jsp").forward(request, response);
 		
         
