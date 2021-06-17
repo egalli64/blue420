@@ -45,7 +45,7 @@ body {
 
 
   article {
-    width: 1800px;
+    width: 1200px;
     padding: 10px;
     margin: 10px;
     border: 1px solid whitesmoke;
@@ -61,7 +61,6 @@ h1 {
 }
 h3{   
     font-family: Georgia, 'Times New Roman', Times, serif;
-    text-shadow: -1px 0 rgb(255, 255, 255), 0 1px rgb(255, 255, 255), 1px 0 rgb(255, 255, 255), 0 -1px rgb(255, 255, 255);
     color:black(0, 0, 0) ;
     font-size: 20px;
     text-align: justify;
@@ -72,7 +71,6 @@ pre {
     font-size: 20px;
     font-style: oblique;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    text-shadow: -1px 0 rgb(255, 255, 255), 0 1px rgb(255, 255, 255), 1px 0 rgb(255, 255, 255), 0 -1px rgb(255, 255, 255);
     font-weight: bold;
     padding:18px 20px;
     text-align:justify;
@@ -84,7 +82,7 @@ pre {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: normal;
-    width: 1800px;
+    width: 1200px;
     padding: 18px 20px;
     margin: 30px;
     border: 1px solid whitesmoke;
