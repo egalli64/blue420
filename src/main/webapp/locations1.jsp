@@ -12,7 +12,7 @@
 </head>
 <body>
     <header>
-        <h1>Matrimonio all'italiana</h1>
+        <h1 id = "bordered1">Matrimonio all'italiana</h1>
     </header>
     <nav>
         Back <a href="index.jsp">home</a>
