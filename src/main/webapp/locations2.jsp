@@ -33,7 +33,7 @@
         </h1>
     </header>
 
-    <pre>
+    <pre class="one">
         <i > 
             La dolce è un film commedia drammatico del 1960, diretto e co-scritto da Federico Fellini.
             Il film segue Marcello Rubini ( Marcello Mastroianni ), giornalista che scrive per riviste di gossip, 
@@ -48,8 +48,9 @@
       </video>
      
     <section>
-        <article class="autoFlex">
+        
             <h3>Roma, Fontana di Trevi</h3>
+            <article class="autoFlex"></article>
 <pre> <i> 
     La dolce vita è Roma. È l’aria della Capitale, dei vicoli stretti del centro dove dive del cinema 
     passeggiano indisturbate, è la via dei rotocalchi, dove pettegolezzi e malelingue si arrovellano per 

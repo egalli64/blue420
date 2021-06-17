@@ -17,7 +17,7 @@
         <b href="Contatti.jsp">Contact</b>
         <b href="Storia.jsp">About</b>
     </nav>
-    
+
     <header>
         <h1 id= "bordered1"> Quo vado
         </br>
@@ -25,7 +25,7 @@
         </h1>
     </header>
 
-    <pre>
+    <pre class="one" >
         <i > 
             Anche in «Quo vado?» alcune scene sono state ambientate in Africa (più precisamente in Mali).
             Non sono state girate nel Paese africano: il villaggio presso cui si 
@@ -39,8 +39,8 @@
       </video>
      
     <section>
-        <article class="autoFlex">
             <h3>Fogliano, Parco Nazionale del Circeo</h3>
+            <article class="autoFlex"></article>
 <pre> <i> 
    
     Il comico Checco Zalone si innamora del paesaggio pontino e lo sceglie per alcune riprese del suo nuovo film.
