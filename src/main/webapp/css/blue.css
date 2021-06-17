@@ -25,7 +25,7 @@ h1 {
 }
 
 .menu{
-  background-color: #333;
+  background-color: rgb(255, 5, 5);
   overflow: hidden;
 }
 .menu b{
@@ -113,7 +113,7 @@ b:hover {
       bottom:50%;
       height:50px;width: 100%;background: #abaeaf;
       margin: 400px auto 0;
-    }
+          }
     
     section{
         display: block;

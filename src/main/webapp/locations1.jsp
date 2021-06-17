@@ -11,13 +11,22 @@
 
 </head>
 <body>
+    <table>
+		<c:forEach var="locations1" items="${locations}">
+			<tr>
+				<td>${film.title}</td>
+				<td>${film.director}</td>
+			</tr>
+		</c:forEach>
+	 </table>
+    <nav class="menu">
+        <a href="index.jsp">Home</a>
+           </nav>
     <header>
-        <h1 id = "bordered1">Matrimonio all'italiana</h1>
+        <h1 id = "bordered1">Matrimonio all'italiana</h1> <br>
+        <h3>Napoli, Quartieri spagnoli</h3>
     </header>
-    <nav>
-        Back <a href="index.jsp">home</a>
-    </nav>
-    <pre>
+    <pre class="one">
         <i> 
             Domenico Soriano, ricco pasticcere e impenitente donnaiolo napoletano,
              è legato all'ex prostituta Filumena Marturano da una relazione più che ventennale.
@@ -35,8 +44,8 @@
      
     <section>
         <article class="autoFlex">
-            <h3>Napoli, Quartieri spagnoli</h3>
-<pre> <i>
+           
+<pre class="two"> <i>
     Un itinerario per  poeti,  sognatori e per tutti quelli che in qualche angolo 
     del loro cuore hanno uno spazio libero e creativo, facile ad appassionarsi. Insieme 
     alla capitale, Napoli è la città che più ha rappresentato, su pellicola, dal muto a 
