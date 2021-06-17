@@ -51,7 +51,9 @@
         
             <h3>Roma, Fontana di Trevi</h3>
             <article class="autoFlex"></article>
-<pre> <i> 
+            <article class="autoFlex">
+           
+                <pre class="two"> <i>
     La dolce vita è Roma. È l’aria della Capitale, dei vicoli stretti del centro dove dive del cinema 
     passeggiano indisturbate, è la via dei rotocalchi, dove pettegolezzi e malelingue si arrovellano per 
     scrivere lo scoop in prima pagina. È la brezza di una città eterna che Federico Fellini ha contribuito 
