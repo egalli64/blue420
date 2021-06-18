@@ -63,7 +63,7 @@ h3{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color:black(0, 0, 0) ;
     font-size: 20px;
-    text-align: justify;
+    text-align: center;
 
 }
 pre {
@@ -98,7 +98,7 @@ pre {
 }
 video {
     position: relative;
-    left: 800px;
+    left: 450px;
   }
   img {
     border-width: 4px; 

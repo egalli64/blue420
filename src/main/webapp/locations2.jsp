@@ -21,7 +21,7 @@ pageEncoding="UTF-8"%>
 
 <header>
     <h1 id= "bordered1"> La dolce vita </h1>
-    <h3>Roma, Fontana di Trevi</h3>
+    <h3> Roma, Fontana di Trevi </h3>
 </header>
 
 <pre class="one" >
