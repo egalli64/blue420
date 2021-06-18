@@ -30,11 +30,11 @@ public class FilmSrv extends HttpServlet {
 		String title = request.getParameter("title");
 		log.trace("called");
 		try (FilmDao dao = new FilmDao(ds)) {
-			
+
 			Location locations = dao.getLocationLike(title);
-			String cur =locations.getName();
+			String cur = locations.getName();
 			String uri;
-			
+
 			switch (cur) {
 			case "Quartieri spagnoli":
 				uri = "locations1.jsp";
@@ -45,16 +45,10 @@ public class FilmSrv extends HttpServlet {
 			case "Parco Nazionale del Circeo":
 				uri = "locations3.jsp";
 				break;
-			case "Duomo di Milano":
-				uri = ".jsp";
+
+			default:
+				uri = "notFound.jsp";
 				break;
-			case "Bahnhof zoo":
-				uri = ".jsp";
-				break;
-				
-				default:
-					uri = "notFound.jsp";
-					break;
 			}
 			request.setAttribute("films", dao.getLocationLike(title));
 			request.getRequestDispatcher(uri).forward(request, response);
