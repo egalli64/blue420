@@ -5,10 +5,11 @@
      padding: 0;
 }
  body{
-     font-family:sans-serif;
-     background-color: rgb(169, 209, 247);
-     color: black;
-     line-height: 1.5;
+    background-image:url("sfondoacquarello.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family:large;
  }
 
  a{
