@@ -15,7 +15,7 @@
 		<body>
 			<nav class="menu">
 				<a href="index.jsp">Home</a>
-				<a href="Contatti.jsp">Contact</a>
+				<a href="contact.jsp">Contact</a>
 				<a href="Storia.jsp">About</a>
 				<c:if test="${logged == null}">
 					<form class="user" method="POST" action="login">
