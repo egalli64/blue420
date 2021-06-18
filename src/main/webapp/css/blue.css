@@ -24,8 +24,8 @@ h1 {
     text-shadow: -1px 0 rgb(255, 255, 255), 0 1px rgb(255, 255, 255), 1px 0 rgb(255, 255, 255), 0 -1px rgb(255, 255, 255);
 }
 
-.menu{
-  background-color: rgb(34, 34, 34);
+
+.menu{background-color: #333;;
   overflow: hidden;
 }
 .menu a{

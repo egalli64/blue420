@@ -17,6 +17,7 @@
 				<a href="index.jsp">Home</a>
 				<a href="contact.jsp">Contact</a>
 				<a href="Storia.jsp">About</a>
+				<a href="Logout.jsp">logout</a>
 				<c:if test="${logged == null}">
 					<form class="user" method="POST" action="login">
 						username: <input type="text" size="40" maxlength="40" name="username" /> <br /> password: <input
