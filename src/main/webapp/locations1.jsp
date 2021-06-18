@@ -38,7 +38,7 @@
         </i>
       
       </pre>
-      <video width="420"  height="440" controls >
+      <video width="640"  height="660" controls >
         <source src="trailer.mp4" type="video/mp4">
        
       </video>

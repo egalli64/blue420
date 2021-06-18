@@ -51,22 +51,22 @@
         
             <h3>Roma, Fontana di Trevi</h3>
             <article class="autoFlex"></article>
-<pre> <i> 
+<pre class="two"> <i> 
     La dolce vita è Roma. È l’aria della Capitale, dei vicoli stretti del centro dove dive del cinema 
     passeggiano indisturbate, è la via dei rotocalchi, dove pettegolezzi e malelingue si arrovellano per 
     scrivere lo scoop in prima pagina. È la brezza di una città eterna che Federico Fellini ha contribuito 
     a santificare, celebrare, elevare, luogo dell’arte per antonomasia, passionale e appassionata, febbrile
-     nel voler racchiudere la bellezza delle proprie meraviglie, dalla periferia al centro storico, tutto
-      ripreso in un film da Palma d’oro, che ha segnato gli annali di una cinematografia nostrana che dovrà 
-      sempre un pezzo di cuore a questo capolavoro intramontabile come la sua città.
-      Una Roma che Fellini ha voluto percorrere per lungo e largo, in cui la frenesia degli anni Sessanta, 
-      delle starlette e dei produttori, dei sogni e della cruda morte si susseguono per posti iconici e
-       quartieri più isolati, in un connubio tra alto e basso che ha segnato la cifra stilistica de La dolce 
-       vita. Come simbolica è diventata, nel corso del tempo, Fontana di Trevi, luogo iconico del bagno 
-       dell’attrice Anita Ekberg e la sua esortazione all’accompagnatore Marcello Mastroianni: “Marcello, 
-       come here!”. Una scena stampata nella storia del cinema, in cui il monumento romano diventa lo scenario 
-       per uno dei momenti più emozionanti dell’intera filmografia mondiale, 
-       cercato di ricreare in seguito da molti altri, ma impossibile anche solo da imitare.
+    nel voler racchiudere la bellezza delle proprie meraviglie, dalla periferia al centro storico, tutto
+    ripreso in un film da Palma d’oro, che ha segnato gli annali di una cinematografia nostrana che dovrà 
+    sempre un pezzo di cuore a questo capolavoro intramontabile come la sua città.
+    Una Roma che Fellini ha voluto percorrere per lungo e largo, in cui la frenesia degli anni Sessanta, 
+    delle starlette e dei produttori, dei sogni e della cruda morte si susseguono per posti iconici e
+    quartieri più isolati, in un connubio tra alto e basso che ha segnato la cifra stilistica de La dolce 
+    vita. Come simbolica è diventata, nel corso del tempo, Fontana di Trevi, luogo iconico del bagno 
+    dell’attrice Anita Ekberg e la sua esortazione all’accompagnatore Marcello Mastroianni: “Marcello, 
+    come here!”. Una scena stampata nella storia del cinema, in cui il monumento romano diventa lo scenario 
+    per uno dei momenti più emozionanti dell’intera filmografia mondiale, 
+    cercato di ricreare in seguito da molti altri, ma impossibile anche solo da imitare.
       
     </i>
 </pre>

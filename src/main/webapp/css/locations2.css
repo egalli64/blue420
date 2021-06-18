@@ -1,16 +1,28 @@
 @charset "UTF-8";
 header {
-    text-align: center;
+  font-style: oblique;
+  font-weight: normal;
+  text-align: center;
+  color:rgb(8, 114, 5);
 }
- .autoFlex {
-    flex: auto;
-}
+ /* .autoFlex {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-style: normal;
+        font-weight: normal;
+        width: 1800px;
+        padding: 18px 20px;
+        margin: 30px;
+        border: 1px solid whitesmoke;
+        background: rgb(104, 202, 104);
+        text-align: center;
+        color: rgb(0, 0, 0);
+} */
 body {
     background-image:url("sfondoacquarello.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    font-family:large;
+    font-family:Georgia, 'Times New Roman', Times, serif;;
       }
       
       .menu {
@@ -37,6 +49,14 @@ body {
         text-align: center;
         color: rgb(0, 0, 0);
             }
+
+        .two{
+              font-family: Georgia, 'Times New Roman', Times, serif;
+              text-align:center;
+              font-style: normal;
+              font-weight: normal;
+              color: rgb(0, 0, 0);
+                  }
       b:hover {
         background-color: #ddd;
         color: black;
@@ -48,10 +68,11 @@ body {
       }
 
       article {
-        width: 300px;
+        width: 1800px;
         padding: 10px;
         margin: 10px;
-        border: black;
+        border: 1px solid whitesmoke;
+        background: rgb(104, 202, 104);
     }
 h1 {   
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -64,20 +85,17 @@ h3{
     text-shadow: -1px 0 rgb(255, 255, 255), 0 1px rgb(255, 255, 255), 1px 0 rgb(255, 255, 255), 0 -1px rgb(255, 255, 255);
     color:black(0, 0, 0) ;
     font-size: 20px;
+    text-align: center;
 
 }
 pre {
     color:black(0, 0, 0) ;
     font-size: 20px;
-    font-style: oblique;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    text-shadow: -1px 0 rgb(255, 255, 255), 0 1px rgb(255, 255, 255), 1px 0 rgb(255, 255, 255), 0 -1px rgb(255, 255, 255);
-    font-weight: bold;
+    font-weight: normal;
     padding:18px 20px;
     text-align:center;
-    font-family:cursive;
-    
-
+     
   }
 
 #container1 {

@@ -40,7 +40,7 @@ body {
       }
 
 article {
-  width: 1800px;
+  width: 00px;
   padding: 10px;
   margin: 10px;
   border: 1px solid whitesmoke;
@@ -69,7 +69,7 @@ pre {
     text-align:center;
       }
 .one{
-      width: 1800px;
+      width: 600px;
       padding: 10px;
       margin: 10px;
       border: 1px solid whitesmoke;
@@ -98,6 +98,7 @@ video {
     position: absolute;
     left: 347px;
     right: 347px;
+    
   }
 
   img {
