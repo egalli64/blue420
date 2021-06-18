@@ -1,24 +1,22 @@
-
 @charset "UTF-8";
 *{
      box-sizing: border-box;
      margin: 0;
      padding: 0;
 }
-body {
+ body{
     background-image:url("sfondoacquarello.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     font-family:large;
-      }
+ }
 
  a{
      text-decoration: none;
      color: black;
  }
  
-
  h1,h2{
      font: weight 300px;
  }
@@ -28,40 +26,37 @@ body {
  p{
      margin:10px 0;
  }
- img{
-     width: 100%;
- }
- /* navbar */
+
  .navbar .logo{
-     font-weight:400;
- }
- .navbar{
-     background-color: black;
-     padding: 0 40px;
-     display:flex;
-     justify-content: space-between;
-     text-align: center;
-     align-items: center;
-     color:rgb(78, 76, 214);
-     opacity: 0,8;
-     height: 70px;
-     width: 100%;
-     position:fixed;
-     top: 0;
-    transition: 1s;
- }
- .navbar.top{
-     background: transparent;
- } 
+    font-weight:400;
+}
+.navbar{
+    background-color: black;
+    padding: 0 40px;
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    color:rgb(78, 76, 214);
+    opacity: 0,8;
+    height: 70px;
+    width: 100%;
+    position:fixed;
+    top: 0;
+   transition: 1s;
+}
+.navbar.top{
+    background: transparent;
+} 
 .navbar ul{
-    display: flex;
+   display: flex;
 }
 .navbar ul li a{
-    padding: 10px;
-    margin-right: 10px;
+   padding: 10px;
+   margin-right: 10px;
 }
 .navbar ul li a:hover{
-    border-bottom:2px solid rgb(215,8,8);
+   border-bottom:2px solid rgb(215,8,8);
 }
 .box{
     height: 100vh;

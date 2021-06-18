@@ -14,9 +14,10 @@
 
 		<body>
 			<nav class="menu">
-				<b href="index.jsp">Home</b>
-				<b href="Contatti.jsp">Contact</b>
-				<b href="Storia.jsp">About</b>
+				<a class="menu-in" href="index.jsp">Home</a>
+				<a class="menu-in" href="contact.jsp">Contact</a>
+				<a class="menu-in" href="Storia.jsp">About</a>
+			
 				<c:if test="${logged == null}">
 					<form class="user" method="POST" action="login">
 						username: <input type="text" size="40" maxlength="40" name="username" /> <br /> password: <input
@@ -24,11 +25,10 @@
 					</form>
 				</c:if>
 				<c:if test="${logged != null}">
-					<a id="lg" href="logout"> Logout</a>
+					<a class="menu-in" href="logout"> Logout</a>
 				</c:if>
 			</nav>
 			<h2 id="ts">Scene Place</h2>
-			
 			<c:if test="${logged != null}">
 					<p id="hello">Welcome ${logged.username}</p>
 				</c:if>

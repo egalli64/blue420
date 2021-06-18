@@ -1,6 +1,6 @@
+
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -12,46 +12,41 @@
 
 </head>
 <body>
-  <table>
-		<c:forEach var="locations2" items="${locations}">
-			<tr>
-				<td>${film.title}</td>
-				<td>${film.director}</td>
-			</tr>
-		</c:forEach>
-	 </table>
 
-    <nav class="menu">
-        <b href="index.jsp">Home</b>
-        <b href="Contatti.jsp">Contact</b>
-        <b href="Storia.jsp">About</b>
+<nav class="menu">
+    <a href="index.jsp">Home</a>
+    <a href="contact.jsp">Contact</a>
+    <a href="Storia.jsp">About</a>
 </nav>
-    <header>
-        <h1 id= "bordered1">La dolce vita </h1>
-        <h3>Roma, Fontana di Trevi</h3>
-    </header>
 
-    <pre class="one">
-        <i > 
-            La dolce è un film commedia drammatico del 1960, diretto e co-scritto da Federico Fellini.
-            Il film segue Marcello Rubini ( Marcello Mastroianni ), giornalista che scrive per riviste di gossip, 
-            per sette giorni e sette notti nel suo viaggio attraverso la "dolce vita" di Roma in una vana ricerca di amore e felicità.
+<header>
+    <h1 id= "bordered1"> La dolce vita </h1>
+    <h3>Roma, Fontana di Trevi</h3>
+</header>
 
-        </i>
-      
-      </pre>
-      <video width="420"  height="450" controls >
-        <source src="La Dolce Vita-Trailer .mp4" type="video/mp4">
-       
-      </video>
-     
-    <section>
+<pre class="one" >
+    <i > 
         
+La dolce è un film commedia drammatico del 1960, diretto e co-scritto da Federico Fellini.
+Il film segue Marcello Rubini ( Marcello Mastroianni ), giornalista che scrive per riviste di gossip, 
+per sette giorni e sette notti nel suo viaggio attraverso la "dolce vita" di Roma in una vana ricerca di amore e felicità.
+
+    </i>
+  
+  </pre>
+  <video width="420"  height="450" controls >
+    <source src="La Dolce Vita-Trailer .mp4" type="video/mp4">
+   
+  </video>
+ 
+<section>
+   
+        <article class="autoFlex">
            
-           
-            <article class="autoFlex">
-           
-                <pre class="two"> <i>
+<pre class="two"> <i>
+        
+       
+
     La dolce vita è Roma. È l’aria della Capitale, dei vicoli stretti del centro dove dive del cinema 
     passeggiano indisturbate, è la via dei rotocalchi, dove pettegolezzi e malelingue si arrovellano per 
     scrivere lo scoop in prima pagina. È la brezza di una città eterna che Federico Fellini ha contribuito 
@@ -68,11 +63,11 @@
        per uno dei momenti più emozionanti dell’intera filmografia mondiale, 
        cercato di ricreare in seguito da molti altri, ma impossibile anche solo da imitare.
       
-    </i>
+</i>
 </pre>
 <figure><img src = "ladolcevita.jpg" alt="pattern" title="roma"  width="420" height="450" ></figure> 
 
-    </section>
+</section>
 
 
 </body>

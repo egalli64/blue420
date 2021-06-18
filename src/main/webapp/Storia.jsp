@@ -20,7 +20,7 @@
                     <nav>
                  <ul>
                  <li> <a href="index.jsp">Home</a></li>
-                <li>  <a href="Contatti.jsp">Contact</a> </li>
+                <li>  <a href="contact.jsp">Contact</a> </li>
                  <li> <a href="Storia.jsp">About</a></li>
                  </nav>
                 </div>
