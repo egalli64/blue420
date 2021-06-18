@@ -14,9 +14,9 @@ pageEncoding="UTF-8"%>
 <body>
 
 <nav class="menu">
-    <b href="index.jsp">Home</b>
-    <b href="Contatti.jsp">Contact</b>
-    <b href="Storia.jsp">About</b>
+    <a href="index.jsp">Home</a>
+    <a href="contact.jsp">Contact</a>
+    <a href="about.jsp">About</a>
 </nav>
 
 <header>

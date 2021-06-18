@@ -8,15 +8,15 @@ pageEncoding="UTF-8"%>
 <meta name="keywords" content ="Travel, Film, Città">
 <title>Scene Place</title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" type="text/css" href="/blue/css/locations3.css">
+<link rel="stylesheet" type="text/css" href="/blue/css/locations2.css">
 
 </head>
 <body>
 
 <nav class="menu">
-    <b href="index.jsp">Home</b>
-    <b href="Contatti.jsp">Contact</b>
-    <b href="Storia.jsp">About</b>
+    <a href="index.jsp">Home</a>
+    <a href="contact.jsp">Contact</a>
+    <a href="about.jsp">About</a>
 </nav>
 
 <header>
